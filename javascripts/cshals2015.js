@@ -5,7 +5,7 @@ cshals2015=function(opt){
     cshals2015.load("javascripts/"+opt,function(h){
         var s = document.getElementById('section')
         s.innerHTML=h
-        window.location.hash('#section')
+        window.location.hash='#section'
     })
     console.log(opt)
 }
